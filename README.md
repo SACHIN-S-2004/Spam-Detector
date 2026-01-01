@@ -18,8 +18,7 @@
 
 The **Spam Detector** is an end-to-end **Machine Learning + Web Application** that classifies text messages as **Spam** or **Not Spam (Ham)**.
 
-The application features a **simple single-textbox interface** where users can input any message and instantly receive a prediction.  
-Behind the scenes, the system uses **Natural Language Processing (NLP)** techniques and a trained ML model to make accurate decisions.
+The application features a **simple single-textbox interface** where users can input any message and instantly receive a prediction. Behind the scenes, the system uses **Natural Language Processing (NLP)** techniques and a trained ML model to make accurate decisions.
 
 This project demonstrates how classical ML algorithms still outperform complex models in **text classification tasks** when used correctly.
 
@@ -40,7 +39,7 @@ This project demonstrates how classical ML algorithms still outperform complex m
 
 <div align="center">
 
-### 📱 Webpage - Responsive Design
+### 💻 Webpage - Responsive Design
 
 ![alt text](sampleScreenshots/Screenshot%20(1772).png)
 
@@ -124,16 +123,24 @@ After performance comparison:
 
 ## 🚀 How to Run the Project
 
-# Clone the repository
+### Clone the repository
+```powershell
 git clone https://github.com/SACHIN-S-2004/Spam-Detector.git
+```
 
-# Navigate to project directory
+### Navigate to project directory
+```powershell
 cd Spam-Detector
+```
 
-# Install dependencies
+### Install dependencies
+```powershell
 pip install -r requirements.txt
+```
 
-# Run the Flask app
+### Run the Flask app
+```powershell
 python app.py
+```
 
 ---
